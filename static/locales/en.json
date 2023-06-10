@@ -1,0 +1,19 @@
+{
+  "sensors": "Sensors",
+  "configure": "Configure",
+  "gasMeter": "Gas meter",
+  "electricityMeter": "Electricity meter",
+  "waterMeter": "Water meter",
+  "temperatureSensor": "Temperature sensor",
+  "noData": "There are no data",
+  "email": "E-mail",
+  "password": "Password",
+  "address": "Address",
+  "successTitle": "Success",
+  "successUserData": "Data has been saved successfully",
+  "errorTitle": "Error",
+  "invalidUserData": "Invalid user data",
+  "invalidAddressData": "Invalid address data",
+  "confirm": "Confirm",
+  "cancel": "Cancel"
+}

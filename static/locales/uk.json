@@ -1,0 +1,20 @@
+{
+  "sensors": "Датчики",
+  "configure": "Налаштування",
+  "gasMeter": "Лічильник газу",
+  "electricityMeter": "Лічильник електроенергії",
+  "waterMeter": "Лічильник води",
+  "temperatureSensor": "Датчик температури",
+  "noData": "Немає даних",
+  "email": "Електронна пошта",
+  "password": "Пароль",
+  "address": "Адреса",
+  "enter": "Увійти для налаштування",
+  "successTitle": "Успіх",
+  "successUserData": "Дані успішно збережено",
+  "errorTitle": "Помилка",
+  "invalidUserData": "Недійсні дані користувача",
+  "invalidAddressData": "Недійсні дані адреси",
+  "confirm": "Підтвердити",
+  "cancel": "Скасувати"
+}

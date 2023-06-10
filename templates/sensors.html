@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <title>New Page</title>
+    <link rel="stylesheet" href="../static/css/sensors.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<header>
+    <ul class="menu">
+        <li><a class="menuItem" href="/sensors">Sensors</a></li>
+        <li><a class="menuItem" href="/">Configure</a></li>
+    </ul>
+    <button class="hamburger">
+        <i class="menuIcon material-icons">menu</i>
+        <i class="closeIcon material-icons">close</i>
+    </button>
+</header>
+<body>
+
+<div class="container" style="flex-direction: column">
+    <select id="language-selector">
+        <option value="en">English</option>
+        <option value="uk">Українська</option>
+    </select>
+
+    <div class="sensor-block">
+        <h1>Sensors</h1>
+        <div style="margin-bottom: 10px">Gas meter: <span id="gas-meter"></span></div>
+        <div style="margin-bottom: 10px">Electricity meter: <span id="electricity-meter"></span></div>
+        <div style="margin-bottom: 10px">Water meter: <span id="water-meter"></span></div>
+        <div style="margin-bottom: 10px">Temperature sensor: <span id="temperature-sensor"></span></div>
+    </div>
+</div>
+<script src="https://unpkg.com/i18next/dist/umd/i18next.min.js"></script>
+<script src="../static/js/sensors.js"></script>
+</body>
+</html>

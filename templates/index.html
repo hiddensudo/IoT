@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>IoT Configure</title>
+    <link rel="stylesheet" href="../static/css/index.css">
+    <link rel="stylesheet" href="../static/css/sensors.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<header>
+    <ul class="menu">
+        <li><a class="menuItem" href="/sensors">Sensors</a></li>
+        <li><a class="menuItem" href="/">Configure</a></li>
+    </ul>
+    <button class="hamburger">
+        <i class="menuIcon material-icons">menu</i>
+        <i class="closeIcon material-icons">close</i>
+    </button>
+</header>
+
+<body>
+<select id="language-selector">
+    <option value="en">English</option>
+    <option value="uk">Українська</option>
+</select>
+
+<div class="container" style="flex-direction: column">
+    <div class="search-box">
+        <input id="email-input" type="email" placeholder="E-mail">
+        <input id="password-input" type="password" placeholder="Password">
+        <input id="address-input" type="text" placeholder="Address">
+        <button id="enter-button">Enter for configure</button>
+        <p id="error-message" class="error-message"></p> <!-- Новий елемент для повідомлення про помилку -->
+    </div>
+</div>
+<script src="https://unpkg.com/i18next/dist/umd/i18next.min.js"></script>
+<script src="../static/js/notifications.js"></script>
+<script src="../static/js/index.js"></script>
+</body>
+</html>
